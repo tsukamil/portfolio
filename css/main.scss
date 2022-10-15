@@ -12,7 +12,14 @@ $colSub: #22d1ee;
     font-weight: 400;
 }
 
+body {
+    display: none;
+}
+
 section {
+    display: flex;
+    align-items: center;
+    height: 100vh;
     padding: 0 50px;
     color: #e2f3f5;
     background: $colBg1;

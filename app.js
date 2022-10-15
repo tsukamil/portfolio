@@ -14,6 +14,9 @@ new fullpage('#fullpage', {
     }
 }) 
 
+document.addEventListener("DOMContentLoaded", function(event){
+    document.getElementsByTagName("body")[0].style.display = "block";
+  });
 
 let canvas = document.getElementById("gameScreen");
 let ctx = canvas.getContext("2d");
